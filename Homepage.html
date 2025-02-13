@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<style>
+    .newstyle{
+        background-image: url('https://thumbs.dreamstime.com/b/black-woman-student-laptop-smile-elearning-education-entertainment-living-room-sofa-home-happy-african-black-270519590.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .butHeight{
+        height: 2rem;
+        
+    }
+    .butColor{
+        background-color: rgb(252, 194, 194);
+    }
+    .newFlex{
+        display: flex;
+        /* justify-content: space-between; */
+    }
+</style>
+
+<!-- Nav Bar -->
+<body class="bg-light ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow px-5 ">
+        <a class="navbar-brand text-danger" href="#">SkillKernel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav">
+                <button type="button" class="btn btn-danger">Click me</button>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Category
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Reviews
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+
+                    </div>
+                </li>
+
+                
+            </ul>
+
+            <!-- Left NavBar -->
+            <div class="w-25 ">
+                <input type="text" class="form-control bg-light rounded-pill " placeholder="What do you want to learn?">
+                
+            </div>
+            <div class="d-flex ">
+
+                <span class="bg-danger rounded-pill p-2 ml-2 text-white">
+                    <i class="bi-search"></i>
+                </span class="bg-danger rounded-pill p-2 text-white">
+                <button type="button" class="btn btn-outline-danger mx-2">Log in</button>
+                <button type="button" class="btn btn-danger">Apply now</button>
+            </div>
+        </div>
+    </nav>
+
+<!-- Main section -->
+<div class="container m-auto bg-danger text-white p-5 newstyle" ">
+    <div class="d-flex flex-column justify-content-center">
+        <span class="text-danger h1"> <strong>Online Learning </strong><br>
+            <span class="text-white">Designed For Real Life</span> </span> <br>
+            <div class="mb-2">
+
+                <span>Move your creative journey forward without putting life on hold.</span><br>
+                <span class="">Our programmes will help you find inspiration that fits your routine.</span>
+            </div>
+        
+        <div>
+
+            <button type="button" class="btn btn-danger">Explore all courses</button>
+            <button type="button" class="btn bg-white">Log in</button>
+        </div>
+    </div>
+
+</div>
+<!-- Search -->
+ <div class="w-auto bg-white p-3  d-flex justify-content-between container flex-column mt-5">
+    <h1>Search for courses</h1>
+    <div class="d-flex ">
+        <div>
+            <label for="exampleInputEmail1" class="form-label">Courses</label>
+            <input type="text" class="form-control bg-white border" placeholder="What do you want to learn?">
+        </div>
+        <div>
+
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" placeholder="Choose" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div>
+
+            <label for="exampleInputEmail1" class="form-label">Subject</label>
+        <input type="email" class="form-control" placeholder="Choose" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <button type="button" class="btn btn-outline-danger px-5 h-25 mt-4">Search <i class="bi-search"></i></button>
+    </div>
+
+ </div>
+
+ <!-- Popular Courses -->
+ <div class="container ">
+      <h1 class=" mt-5">Popular Courses</h1>
+
+    <!-- cards containers -->
+   
+    <div class="d-flex container">
+        <div class="card w-50 mr-5" style="width: 18rem;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <div class="card-body">
+            <h5 class="card-title">Executive Masters of Business Administration (EMBA) in Public Health</h5>
+            <p class="card-text">This programme is designed to provide insights into understanding and managing the public health system</p>
+            <div class="d-flex flex-column my-4">
+
+                <!-- Buttons -->
+                <div class="d-flex mb-2 butHeight">
+
+                    <button class="btn btn-sm btn-outline-danger w-50 rounded-pill butColor mr-3"> <i class="bi-check"></i>Access to this course</button>
+                    <div class="d-flex flex-column ">
+                        <span class=""> Course Starts</span>
+                        <span><strong>Anytime</strong></span>
+                    </div>
+                </div>
+                <div class="d-flex mb-2 butHeight">
+
+                    <button class="btn btn-sm btn-outline-danger w-50 rounded-pill butColor"> <i class="bi-check"></i>Access to library</button>
+                    <div class="d-flex flex-column">
+                        <span></span>
+                        <span><strong></strong></span>
+                    </div>
+                </div>
+                <div class="d-flex mb-2 butHeight">
+
+                    <button class="btn btn-sm btn-outline-danger w-50 rounded-pill butColor mr-3"> <i class="bi-check"></i>Learn at your own pace</button>
+                    <div class="d-flex flex-column">
+                        <span>Completion time</span>
+                        <span><strong>2 Weeks</strong></span>
+                    </div>
+                </div>
+                <div class="d-flex mb-2 butHeight">
+
+                    <button class="btn btn-sm btn-outline-danger w-50 rounded-pill butColor"> <i class="bi-check"></i>Test to boost your learning</button>
+                    <div class="d-flex flex-column">
+                        <span></span>
+                        <span><strong></strong></span>
+                    </div>
+                </div>
+                <div class="d-flex mb-2 butHeight">
+
+                    <button class="btn btn-sm btn-outline-danger w-50 rounded-pill butColor mr-3"> <i class="bi-check"></i>Digital certificate when eligible</button>
+                    <div class="d-flex flex-column">
+                        <span>Limited time offer</span>
+                        <span><strong>$120</strong></span>
+                    </div>
+                </div>
+
+            </div>
+            <!-- icons -->
+            <div>
+
+                <span> <i class="bi-star-fill"></i> 4.5</span>
+                <span> <i class="bi-person"></i> 1000</span>
+            </div class="">
+            <a href="#" class="btn btn-primary w-100"> View course details</a>
+            </div>
+        </div>
+        <div class="card w-50" style="width: 18rem;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <div class="card-body">
+            <h5 class="card-title">Executive Masters of Business Administration (EMBA) in Public Health</h5>
+            <p class="card-text">This programme is designed to provide insights into understanding and managing the public health system</p>
+            <div class="d-flex flex-column my-4">
+
+                <!-- Buttons -->
+                <div class="d-flex mb-2 butHeight">
+
+                    <button class="btn btn-sm btn-outline-danger w-50 rounded-pill butColor mr-3"> <i class="bi-check"></i>Access to this course</button>
+                    <div class="d-flex flex-column ">
+                        <span class=""> Course Starts</span>
+                        <span><strong>Anytime</strong></span>
+                    </div>
+                </div>
+                <div class="d-flex mb-2 butHeight">
+
+                    <button class="btn btn-sm btn-outline-danger w-50 rounded-pill butColor"> <i class="bi-check"></i>Access to library</button>
+                    <div class="d-flex flex-column">
+                        <span></span>
+                        <span><strong></strong></span>
+                    </div>
+                </div>
+                <div class="d-flex mb-2 butHeight">
+
+                    <button class="btn btn-sm btn-outline-danger w-50 rounded-pill butColor mr-3"> <i class="bi-check"></i>Learn at your own pace</button>
+                    <div class="d-flex flex-column">
+                        <span>Completion time</span>
+                        <span><strong>2 Weeks</strong></span>
+                    </div>
+                </div>
+                <div class="d-flex mb-2 butHeight">
+
+                    <button class="btn btn-sm btn-outline-danger w-50 rounded-pill butColor"> <i class="bi-check"></i>Test to boost your learning</button>
+                    <div class="d-flex flex-column">
+                        <span></span>
+                        <span><strong></strong></span>
+                    </div>
+                </div>
+                <div class="d-flex mb-2 butHeight">
+
+                    <button class="btn btn-sm btn-outline-danger w-50 rounded-pill butColor mr-3"> <i class="bi-check"></i>Digital certificate when eligible</button>
+                    <div class="d-flex flex-column">
+                        <span>Limited time offer</span>
+                        <span><strong>$120</strong></span>
+                    </div>
+                </div>
+
+            </div>
+            <!-- icons -->
+            <div>
+
+                <span> <i class="bi-star-fill"></i> 4.5</span>
+                <span> <i class="bi-person"></i> 1000</span>
+            </div class="">
+            <a href="#" class="btn btn-primary w-100"> View course details</a>
+            </div>
+        </div>
+    </div>
+    <div class="container position-relative">
+        <button class="btn btn-outline-primary my-5 "> View all courses <i class="bi-chevron-right"></i></button>
+    </div>
+
+    <!-- Grid -->
+    <div class="container">
+        <div class="row">
+          <div class="col ">
+            <div class="card" style="width: 18rem; height: 23rem">
+                
+                <div class="card-body bg-primary">
+                  <h5 class="card-title mt-5"> <strong>Explore short course</strong></h5>
+                  <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn bg-white">Go somewhere</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://thumbs.dreamstime.com/z/rest-relax-concept-smiling-curvy-african-american-woman-sitting-couch-using-laptop-wearing-wireless-headset-young-black-210572224.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://thumbs.dreamstime.com/b/joyful-african-american-lady-watching-movie-online-using-laptop-joyful-african-american-young-lady-watching-movie-online-sitting-231777704.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="mt-5 p-5">
+        <span class="h1">How a professional certificate works</span><br>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam incidunt similique quae doloremque qui fugiat dolorum, iusto nemo quas a reiciendis ipsum hic, vero amet quo quod perspiciatis! Totam, in?</span>
+      </div>
+
+      <!-- cards -->
+       <div class="container my-5">
+        <div class="row">
+            <div  class="col">
+                <div class="card" style="width: 18rem; height: 23rem">
+                
+                    <div class="card-body bg-primary">
+                      <h5 class="card-title mt-5"> <strong>Explore short course</strong></h5>
+                      <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn bg-white">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div  class="col">
+                <div class="card" style="width: 18rem; height: 23rem">
+                
+                    <div class="card-body bg-success">
+                      <h5 class="card-title mt-5"> <strong>Explore short course</strong></h5>
+                      <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn bg-white">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div  class="col">
+                <div class="card" style="width: 18rem; height: 23rem">
+                
+                    <div class="card-body bg-warning">
+                      <h5 class="card-title mt-5"> <strong>Explore short course</strong></h5>
+                      <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn bg-white">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+       </div>
+
+       <!-- Right course -->
+        <div class="d-flex container bg-white p-5">
+            <div class="mr-5">
+                <img src="https://th.bing.com/th/id/OIP.64ow4TKEGjVjAROd4ioBbQHaEK?rs=1&pid=ImgDetMain" alt="">
+            </div>
+            <div>
+                <h1> <span class="">Find</span> the right course for you</h1>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima quis provident nisi distinctio, quasi accusamus illum numquam praesentium eaque ducimus ipsum ea. Repellendus, aperiam unde nesciunt consequuntur quasi enim rem?</span><br>
+                <span class=""><strong>Popular courses</strong></span>
+                <div>
+                    <div class="d-flex mb-2 butHeight">
+
+                        <button class="btn btn-sm btn-outline-danger w-50 rounded-pill butColor mr-3">Access to this course</button>
+                        <button class="btn btn-sm btn-outline-danger w-50 rounded-pill butColor mr-3">Access to this course</button>
+                        <button class="btn btn-sm btn-outline-danger w-50 rounded-pill butColor mr-3">Access to this course</button>
+                        
+                    </div>
+                    <div class="d-flex mb-2 butHeight">
+
+                        <button class="btn btn-sm btn-outline-danger w-50 rounded-pill butColor mr-3">Access to this course</button>
+                        <button class="btn btn-sm btn-outline-danger w-50 rounded-pill butColor mr-3">Access to this course</button>
+                        <button class="btn btn-sm btn-outline-danger w-50 rounded-pill butColor mr-3">Access to this course</button>
+                        
+                    </div>
+                    <div class="d-flex mb-2 butHeight">
+
+                        <button class="btn btn-sm btn-outline-danger w-50 rounded-pill butColor mr-3">Access to this course</button>
+                        <button class="btn btn-sm btn-outline-danger w-50 rounded-pill butColor mr-3">Access to this course</button>
+                        <button class="btn btn-sm btn-outline-danger w-50 rounded-pill butColor mr-3">Access to this course</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- How learners like -->
+
+        <div class="container p-5 butColor d-flex">
+            <div class="">
+                <h1 class="text-danger">How learners like you are achieving their goals</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ipsa delectus! Eaque, repudiandae sit fuga earum nesciunt eos repellat magnam? Repellendus veritatis optio neque aspernatur assumenda voluptas quia nisi beatae?</p>
+            </div>
+            <div class="d-flex">
+                <img src="https://th.bing.com/th/id/OIP.0BERkgSbvM9jGD-yQr9--QAAAA?rs=1&pid=ImgDetMain" class="w-25 rounded-circle h-75 mr-5" alt="">
+                <div class="d-flex flex-column">
+                    <span> <strong>Andrew Samson</strong></span><br>
+                    <span>Lorem ipsum dolor sit amet.</span><br>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id modi nam quo explicabo nulla quisquam illo est, ratione esse, excepturi iste distinctio praesentium, tenetur facilis quidem totam blanditiis! Autem, excepturi.</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+         <div class="d-flex container bg-dark text-white">
+            <div>
+                <span>About Us</span>
+                <span>Lorem, ipsum dolor.</span>
+                <span>Lorem, ipsum dolor.</span>
+                <span>Lorem, ipsum dolor.</span>
+                <span>Lorem, ipsum dolor.</span>
+                <span>Lorem, ipsum dolor.</span>
+            </div>
+            div>
+                <span>About Us</span>
+                <span>Lorem, ipsum dolor.</span>
+                <span>Lorem, ipsum dolor.</span>
+                <span>Lorem, ipsum dolor.</span>
+                <span>Lorem, ipsum dolor.</span>
+                <span>Lorem, ipsum dolor.</span>
+            </div>
+            div>
+                <span>About Us</span>
+                <span>Lorem, ipsum dolor.</span>
+                <span>Lorem, ipsum dolor.</span>
+                <span>Lorem, ipsum dolor.</span>
+                <span>Lorem, ipsum dolor.</span>
+                <span>Lorem, ipsum dolor.</span>
+            </div>
+         </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
